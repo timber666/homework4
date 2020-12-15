@@ -4,54 +4,141 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Document</title>
-	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
 	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
 
 </head>
 <body>
-	<center><a href="https://timber666.github.io/index/">回首頁</a></center>
-	<nav class="navbar navbar-expand-lg navbar-dark bg-info ">
-		<div class="container">
-	  		<a class="navbar-brand" href="#"><i class="fas fa-rss"></i>部落格排版</a>
-			  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-			    <span class="navbar-toggler-icon"></span>
-			  </button>
-	
-			  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-			    <ul class="navbar-nav ml-auto">
-			      <li class="nav-item active">
-			        <a class="nav-link" href="#">Home</a>
-			      </li>
-			      <li class="nav-item">
-			        <a class="nav-link" href="#">Link</a>
-			      </li>
-			    </ul>
-			  </div>
-		</div>
+	<nav class="navbar navbar-expand-lg navbar-dark bg-info">
+	<div class="container">
+  <a class="navbar-brand font-weight-bold" href="#" >
+  	<i class="fa fa-rss"></i>
+  	部落格排版
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+      </li>
+    </ul>
+  </div>
+  </div>
+</nav>
+<div class="container">
+	<nav aria-label="breadcrumb ">
+	  <ol class="breadcrumb bg-white">
+	    <li class="breadcrumb-item"><a href="#">Home</a></li>
+	    <li class="breadcrumb-item"><a href="#">Library</a></li>
+	    <li class="breadcrumb-item active" aria-current="page">Data</li>
+	  </ol>
 	</nav>
-	<div class="container">
-		<nav aria-label="breadcrumb">
-			<ol class="breadcrumb bg-transparent">
-				<li class="breadcrumb-item"><a href="#">Home</a></li>
-				<li class="breadcrumb-item"><a href="#">Library</a></li>
-				<li class="breadcrumb-item active" aria-current="page">Data</li>
-			</ol>
-		</nav>
-		<h1 class="font-weight-bold text-info">部落格標題</h1>
-		<div>
-			<span><i class="fa fa-user text-info"></i>作者</span>
-			<span><i class="far fa-clock text-info"></i>2020-12-08 12:00:00</span>
-			<span><i class="fa fa-tags text-info"></i>blog</span>
+	<h1 class="font-weight-bold text-info">部落格標題</h1>
+	<div>
+		<span class="mr-3"><i class="fa fa-user text-info"></i>作者</span>
+		<span class="mr-3"><i class="far fa-clock text-info"></i>2020-12-08 10:00:00</span>
+		<span class="mr-3"><i class="fa fa-tags text-info"></i>blog</span>
+	</div>
+	<div class="row mt-1">
+		<div class="col-sm-8 text-break ">
+			<div class="bg-light border p-3 ">
+				<p>
+				Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum necessitatibus, tempora velit quia architecto soluta, ullam officia neque magnam doloribus iure vitae provident. Minima adipisci reprehenderit cumque quam, non quas.
+				</p>
+				<h2>副標題</h2>
+				<ul>
+					<li>
+						Lorem, ipsum dolor, sit amet consectetur adipisicing elit. Fugiat in neque soluta dignissimos possimus quasi explicabo ut, corrupti, dolorem. Dolores dolor distinctio et culpa illo, expedita assumenda, autem eos tempore!
+					</li>
+					<li>
+						Lorem, ipsum dolor, sit amet consectetur adipisicing elit. Fugiat in neque soluta dignissimos possimus quasi explicabo ut, corrupti, dolorem. Dolores dolor distinctio et culpa illo, expedita assumenda, autem eos tempore!
+					</li>
+					<li>
+						Lorem, ipsum dolor, sit amet consectetur adipisicing elit. Fugiat in neque soluta dignissimos possimus quasi explicabo ut, corrupti, dolorem. Dolores dolor distinctio et culpa illo, expedita assumenda, autem eos tempore!
+					</li>
+					<li>
+						Lorem, ipsum dolor, sit amet consectetur adipisicing elit. Fugiat in neque soluta dignissimos possimus quasi explicabo ut, corrupti, dolorem. Dolores dolor distinctio et culpa illo, expedita assumenda, autem eos tempore!
+					</li>
+					<li>
+						Lorem, ipsum dolor, sit amet consectetur adipisicing elit. Fugiat in neque soluta dignissimos possimus quasi explicabo ut, corrupti, dolorem. Dolores dolor distinctio et culpa illo, expedita assumenda, autem eos tempore!
+					</li>
+				</ul>
+				<img class="img-fluid" src="http://fakeimg.pl/1000x300/00CED1/FFF/?text=img+placeholder">
+				<div class="card-header">
+					留言板
+				</div>
+				<div class="card-body">
+				<div class="media">
+				<img class="img-fluid align-self-center" src="http://fakeimg.pl/80x80/00CED1/FFF/?text=img+placeholder">
+				  <div class="media-body ml-3">
+				    <h5 class="mt-0">留言內容</h5>
+				    <textarea class="form-control"></textarea>
+				    <button type="button" class="btn btn-light btn-block">提交</button>
+				  </div>
+				</div>
+			</div>
+			<div class="card-body">
+				<div class="media">
+				<img class="img-fluid align-self-center" src="http://fakeimg.pl/80x80/00CED1/FFF/?text=img+placeholder">
+				  <div class="media-body ml-3">
+				    <h5 class="mt-0">Media heading</h5>
+				    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+				  </div>
+				</div>
+			</div>
+			<div class="card-body">
+				<div class="media">
+				<img class="img-fluid align-self-center" src="http://fakeimg.pl/80x80/00CED1/FFF/?text=img+placeholder">
+				  <div class="media-body ml-3">
+				    <h5 class="mt-0">Media heading</h5>
+				    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+				  </div>
+				</div>
+			</div>
+			</div>
+		</div>
+		<div class="col-sm-4">
+			<div class="border bg-light">
+				<h1>TAGS</h1>
+				<a class="badge badge-info"><i class="fa fa-tags text-white"></i>badge</a>
+				<a class="badge badge-info"><i class="fa fa-tags text-white"></i>badge</a>
+				<a class="badge badge-info"><i class="fa fa-tags text-white"></i>badge</a>
+				<a class="badge badge-info"><i class="fa fa-tags text-white"></i>badge</a>
+				<a class="badge badge-info"><i class="fa fa-tags text-white"></i>badge</a>
+				<a class="badge badge-info"><i class="fa fa-tags text-white"></i>badge</a>
+				<a class="badge badge-info"><i class="fa fa-tags text-white"></i>badge</a>
+				<a class="badge badge-info"><i class="fa fa-tags text-white"></i>badge</a>
+				<a class="badge badge-info"><i class="fa fa-tags text-white"></i>badge</a>
+				<a class="badge badge-info"><i class="fa fa-tags text-white"></i>badge</a>
+				<a class="badge badge-info"><i class="fa fa-tags text-white"></i>badge</a>
+				<a class="badge badge-info"><i class="fa fa-tags text-white"></i>badge</a>
+				<a class="badge badge-info"><i class="fa fa-tags text-white"></i>badge</a>
+				<a class="badge badge-info"><i class="fa fa-tags text-white"></i>badge</a>
+				<a class="badge badge-info"><i class="fa fa-tags text-white"></i>badge</a>
+			</div>
 		</div>
 	</div>
-	<div class="container">
-		<div class="row">
-			<div class="col-sm-8">a</div>
-			<div class="col-sm-4">b</div>
+</div>
+<div class="p-4 bg-light">
+	<div class="container d-flex">
+		<div>版權宣告</div>
+		<div class="ml-auto">
+			<div>
+				<i class="fab fa-facebook-square text-info"></i>
+				<i class="fab fa-twitter text-info"></i>
+				<i class="fab fa-qq text-info"></i>
+				<i class="fab fa-line text-info"></i>
+			</div>
 		</div>
 	</div>
+</div>
 </body>
 </html>
